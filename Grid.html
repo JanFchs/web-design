@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://lcc-adm.github.io/PM-demo-thing/text.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>text page</title>
+   <style>
+    body{
+      background-color: brown;
+    }
+ .container {  display: grid;
+  grid-template-columns: 300px 2fr 1fr;
+  grid-template-rows: 200px 1fr 100px;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Header Header Header"
+    "Left Main Right"
+    "Footer Footer Footer";
+    background-color:burlywood
+}
+
+Article { grid-area: Main; }
+
+.Left { grid-area: Left;
+ background-image: radial-gradient( circle 817.6px at 10% 20%,  rgba(178,34,34,1) 0%, rgba(255,87,51,1) 41.9%, rgba(255,165,0,1) 100.2% );
+}
+.Right { grid-area: Right; 
+background-image: radial-gradient( circle 986.6px at 10% 20%,  rgba(251,6,6,0.94) 0%, rgba(3,31,213,1) 82.8%, rgba(248,101,248,1) 87.9% );
+}
+.Header { grid-area: Header; 
+background-image: radial-gradient( circle 916px at 8.2% 23.5%,  rgba(171,45,121,1) 0%, rgba(176,53,127,1) 17%, rgba(221,131,2,0.86) 47.2%, rgba(247,246,246,1) 100.2%, rgba(247,246,246,1) 100.2% );
+}
+.Footer { grid-area: Footer; 
+background-image: linear-gradient( 109.6deg,  rgba(217,67,67,1) 11.2%, rgba(242,106,75,1) 100.6% );
+}
+  </style>
+</head>
+
+<body>  
+  <div class="container">
+    <Article><p>Führungskommando-Leiteinheit-Replika, Operational Command Control Unit Replika 'Falcon'
+       or as known by her subordnates Comander Falke. In the world of ignalis she is one of the top Replika ever made
+        and her main purpose is to lead other Replika and Gestalt alike. She is 8'2 in height, she has long black hair, a halo, a crown.
+      other than that, she has the standard Replika appearance. She has telekentic abilities and can manifest spears and a sword.</p></Article>
+    <div class="Left"></div>
+    <div class="Right"></div>
+    <div class="Header"><p>Falke is my Favorite Replika if you coudn't tell</p></div>
+    <div class="Footer"><p>anyways, you should play Signalis</p></div>
+  </div>
+
+</body></html>
